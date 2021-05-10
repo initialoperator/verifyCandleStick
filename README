@@ -1,0 +1,6 @@
+This program queries data from a remote web service with option to switch to local mocked data. 
+Two types of data is being queried here: candle stick data and trade data.
+
+Once the data are obtained, the program will again convert the trade data into candle stick data and compare for discrepancy. Any mismatch from the original candle sticks to the converted ones will be displayed.
+
+Unit testing were provided for 2 of the methods needed for this verification.
